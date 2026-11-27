@@ -25,6 +25,7 @@ Entiteti: korisnik, žanr, autor, knjiga, porudžbina, stavka porudžbine i rece
 Urađeno:
 
 - struktura projekta i početni podaci
+- stilovi za sve stranice
 
 ## Servis za podatke
 
