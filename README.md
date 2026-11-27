@@ -26,6 +26,7 @@ Urađeno:
 
 - struktura projekta i početni podaci
 - stilovi za sve stranice
+- zajedničke funkcije za rad sa servisom, sesijom i korpom
 
 ## Servis za podatke
 
