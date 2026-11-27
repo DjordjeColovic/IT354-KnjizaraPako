@@ -1,0 +1,12 @@
+{
+  "name": "pako-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000",
+    "faza1": "json-server --watch db.json --port 3000 --static ../faza-1"
+  },
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}

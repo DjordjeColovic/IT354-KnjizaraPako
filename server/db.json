@@ -1,0 +1,94 @@
+{
+  "korisnici": [
+    {
+      "id": 1,
+      "ime": "Admin",
+      "prezime": "Pako",
+      "email": "admin@pako.rs",
+      "lozinka": "admin123",
+      "uloga": "admin",
+      "adresa": "Knez Mihailova 10",
+      "grad": "Beograd",
+      "telefon": "0601234567",
+      "datumRegistracije": "2026-09-01T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "ime": "Marko",
+      "prezime": "Petrović",
+      "email": "marko@pako.rs",
+      "lozinka": "marko123",
+      "uloga": "kupac",
+      "adresa": "Bulevar oslobođenja 45",
+      "grad": "Novi Sad",
+      "telefon": "0641112233",
+      "datumRegistracije": "2026-09-15T14:20:00.000Z"
+    },
+    {
+      "id": 3,
+      "ime": "Ana",
+      "prezime": "Jovanović",
+      "email": "ana@pako.rs",
+      "lozinka": "ana123",
+      "uloga": "kupac",
+      "adresa": "Vojvode Mišića 7",
+      "grad": "Niš",
+      "telefon": "0659876543",
+      "datumRegistracije": "2026-10-02T09:05:00.000Z"
+    }
+  ],
+  "zanrovi": [
+    { "id": 1, "naziv": "Domaća književnost", "opis": "Romani i pripovetke pisaca sa ovih prostora." },
+    { "id": 2, "naziv": "Svetski klasici", "opis": "Dela svetske književnosti koja se čitaju generacijama." },
+    { "id": 3, "naziv": "Fantastika", "opis": "Izmišljeni svetovi, magija i velike avanture." },
+    { "id": 4, "naziv": "Krimi i triler", "opis": "Zločini, istrage i neočekivani obrti." },
+    { "id": 5, "naziv": "Popularna nauka", "opis": "Knjige koje nauku i istoriju objašnjavaju jednostavno." }
+  ],
+  "autori": [
+    { "id": 1, "ime": "Ivo", "prezime": "Andrić", "zemlja": "Jugoslavija", "biografija": "Pisac romana i pripovedaka, dobitnik Nobelove nagrade za književnost 1961. godine." },
+    { "id": 2, "ime": "Meša", "prezime": "Selimović", "zemlja": "Jugoslavija", "biografija": "Romansijer poznat po delima u kojima se bavi pitanjima vlasti, vere i savesti." },
+    { "id": 3, "ime": "Danilo", "prezime": "Kiš", "zemlja": "Jugoslavija", "biografija": "Pisac proze i eseja, jedan od najprevođenijih autora sa ovih prostora." },
+    { "id": 4, "ime": "Fjodor", "prezime": "Dostojevski", "zemlja": "Rusija", "biografija": "Ruski romanopisac čija dela istražuju krivicu, veru i ljudsku psihu." },
+    { "id": 5, "ime": "Džordž", "prezime": "Orvel", "zemlja": "Velika Britanija", "biografija": "Engleski pisac i novinar, poznat po romanima o totalitarnim društvima." },
+    { "id": 6, "ime": "Dž. R. R.", "prezime": "Tolkin", "zemlja": "Velika Britanija", "biografija": "Profesor filologije i tvorac sveta Srednje zemlje." },
+    { "id": 7, "ime": "Agata", "prezime": "Kristi", "zemlja": "Velika Britanija", "biografija": "Autorka detektivskih romana sa Herkulom Poaroom i gospođicom Marpl." },
+    { "id": 8, "ime": "Juval Noa", "prezime": "Harari", "zemlja": "Izrael", "biografija": "Istoričar koji piše o prošlosti i budućnosti čovečanstva." }
+  ],
+  "knjige": [
+    { "id": 1, "naslov": "Na Drini ćuprija", "autorId": 1, "zanrId": 1, "cena": 1290, "godina": 1945, "brojStrana": 384, "povez": "tvrd", "naStanju": 12, "boja": "#2f5d50", "opis": "Hronika jednog mosta i grada uz njega, kroz četiri veka i smenu mnogih generacija." },
+    { "id": 2, "naslov": "Prokleta avlija", "autorId": 1, "zanrId": 1, "cena": 890, "godina": 1954, "brojStrana": 160, "povez": "mek", "naStanju": 8, "boja": "#7a4b2a", "opis": "Kratki roman o zatvoru u Carigradu i ljudima čije se priče u njemu prepliću." },
+    { "id": 3, "naslov": "Derviš i smrt", "autorId": 2, "zanrId": 1, "cena": 1390, "godina": 1966, "brojStrana": 432, "povez": "tvrd", "naStanju": 6, "boja": "#4a3f6b", "opis": "Ispovest šejha Nurudina koji posle bratovljevog hapšenja preispituje sve u šta je verovao." },
+    { "id": 4, "naslov": "Tvrđava", "autorId": 2, "zanrId": 1, "cena": 1290, "godina": 1970, "brojStrana": 400, "povez": "mek", "naStanju": 4, "boja": "#8c5a3c", "opis": "Priča o vojniku koji se vraća iz rata i pokušava da sačuva sebe u nepravednom svetu." },
+    { "id": 5, "naslov": "Bašta, pepeo", "autorId": 3, "zanrId": 1, "cena": 990, "godina": 1965, "brojStrana": 224, "povez": "mek", "naStanju": 3, "boja": "#5c6b3a", "opis": "Detinjstvo ispričano kroz sećanja na neobičnog i nestalog oca." },
+    { "id": 6, "naslov": "Enciklopedija mrtvih", "autorId": 3, "zanrId": 1, "cena": 1090, "godina": 1983, "brojStrana": 208, "povez": "mek", "naStanju": 9, "boja": "#3b3b3b", "opis": "Zbirka priča u kojima se stvarno i izmišljeno spajaju u pitanja o smrti i sećanju." },
+    { "id": 7, "naslov": "Zločin i kazna", "autorId": 4, "zanrId": 2, "cena": 1490, "godina": 1866, "brojStrana": 560, "povez": "tvrd", "naStanju": 10, "boja": "#7b2d26", "opis": "Siromašni student počini ubistvo i potom se bori sa sopstvenom savešću." },
+    { "id": 8, "naslov": "Braća Karamazovi", "autorId": 4, "zanrId": 2, "cena": 2190, "godina": 1880, "brojStrana": 880, "povez": "tvrd", "naStanju": 5, "boja": "#5a2e2e", "opis": "Porodična drama o trojici braće, ocu i pitanjima vere, slobode i odgovornosti." },
+    { "id": 9, "naslov": "1984", "autorId": 5, "zanrId": 2, "cena": 1190, "godina": 1949, "brojStrana": 336, "povez": "mek", "naStanju": 15, "boja": "#1f3a5f", "opis": "Vinston Smit živi u državi koja nadzire svaku misao i odlučuje da se pobuni." },
+    { "id": 10, "naslov": "Životinjska farma", "autorId": 5, "zanrId": 2, "cena": 790, "godina": 1945, "brojStrana": 128, "povez": "mek", "naStanju": 14, "boja": "#9a6b1f", "opis": "Životinje preuzimaju farmu, a nova vlast ubrzo počinje da liči na staru." },
+    { "id": 11, "naslov": "Hobit", "autorId": 6, "zanrId": 3, "cena": 1390, "godina": 1937, "brojStrana": 320, "povez": "tvrd", "naStanju": 11, "boja": "#3e6b48", "opis": "Bilbo Bagins kreće na putovanje sa patuljcima kako bi povratili blago od zmaja." },
+    { "id": 12, "naslov": "Gospodar prstenova: Družina prstena", "autorId": 6, "zanrId": 3, "cena": 1890, "godina": 1954, "brojStrana": 512, "povez": "tvrd", "naStanju": 7, "boja": "#6b4e16", "opis": "Frodo dobija prsten moći i sa družinom kreće na opasan put kroz Srednju zemlju." },
+    { "id": 13, "naslov": "Ubistvo u Orijent ekspresu", "autorId": 7, "zanrId": 4, "cena": 990, "godina": 1934, "brojStrana": 256, "povez": "mek", "naStanju": 2, "boja": "#24425e", "opis": "Voz je zaglavljen u snegu, putnik je ubijen, a Herkul Poaro ima samo nekoliko tragova." },
+    { "id": 14, "naslov": "Smrt na Nilu", "autorId": 7, "zanrId": 4, "cena": 990, "godina": 1937, "brojStrana": 288, "povez": "mek", "naStanju": 8, "boja": "#a0522d", "opis": "Na krstarenju Nilom ubijena je bogata naslednica, a svi putnici imaju razlog da je mrze." },
+    { "id": 15, "naslov": "Sapijens", "autorId": 8, "zanrId": 5, "cena": 1990, "godina": 2011, "brojStrana": 480, "povez": "mek", "naStanju": 10, "boja": "#b5651d", "opis": "Kratka istorija čovečanstva od prvih ljudi do savremenog doba." },
+    { "id": 16, "naslov": "Homo deus", "autorId": 8, "zanrId": 5, "cena": 1990, "godina": 2015, "brojStrana": 464, "povez": "mek", "naStanju": 0, "boja": "#4f5d75", "opis": "Razmišljanje o tome kuda vodi razvoj tehnologije i šta će to značiti za ljude." }
+  ],
+  "porudzbine": [
+    { "id": 1, "korisnikId": 2, "datum": "2026-10-20T16:30:00.000Z", "status": "isporučena", "adresa": "Bulevar oslobođenja 45", "grad": "Novi Sad", "postanskiBroj": "21000", "telefon": "0641112233", "dostava": 300, "ukupno": 3180 },
+    { "id": 2, "korisnikId": 3, "datum": "2026-11-10T11:15:00.000Z", "status": "poslata", "adresa": "Vojvode Mišića 7", "grad": "Niš", "postanskiBroj": "18000", "telefon": "0659876543", "dostava": 0, "ukupno": 3280 },
+    { "id": 3, "korisnikId": 2, "datum": "2026-11-25T19:40:00.000Z", "status": "nova", "adresa": "Bulevar oslobođenja 45", "grad": "Novi Sad", "postanskiBroj": "21000", "telefon": "0641112233", "dostava": 300, "ukupno": 1980 }
+  ],
+  "stavke": [
+    { "id": 1, "porudzbinaId": 1, "knjigaId": 11, "kolicina": 1, "cena": 1390 },
+    { "id": 2, "porudzbinaId": 1, "knjigaId": 7, "kolicina": 1, "cena": 1490 },
+    { "id": 3, "porudzbinaId": 2, "knjigaId": 12, "kolicina": 1, "cena": 1890 },
+    { "id": 4, "porudzbinaId": 2, "knjigaId": 3, "kolicina": 1, "cena": 1390 },
+    { "id": 5, "porudzbinaId": 3, "knjigaId": 2, "kolicina": 1, "cena": 890 },
+    { "id": 6, "porudzbinaId": 3, "knjigaId": 10, "kolicina": 1, "cena": 790 }
+  ],
+  "recenzije": [
+    { "id": 1, "knjigaId": 11, "korisnikId": 2, "ocena": 5, "tekst": "Čitao sam je kao dete i ponovo sada. Jednako je dobra.", "datum": "2026-10-28T20:00:00.000Z" },
+    { "id": 2, "knjigaId": 7, "korisnikId": 2, "ocena": 4, "tekst": "Teška, ali vredi svake strane.", "datum": "2026-11-02T18:45:00.000Z" },
+    { "id": 3, "knjigaId": 12, "korisnikId": 3, "ocena": 5, "tekst": "Najbolji početak trilogije, jedva čekam nastavak.", "datum": "2026-11-18T21:10:00.000Z" },
+    { "id": 4, "knjigaId": 1, "korisnikId": 3, "ocena": 4, "tekst": "Lepo napisana priča o Višegradu, malo spora na početku.", "datum": "2026-11-20T08:30:00.000Z" }
+  ]
+}
