@@ -29,6 +29,7 @@ Urađeno:
 - zajedničke funkcije za rad sa servisom, sesijom i korpom
 - prijava korisnika
 - registracija novog naloga
+- početna stranica
 
 ## Servis za podatke
 

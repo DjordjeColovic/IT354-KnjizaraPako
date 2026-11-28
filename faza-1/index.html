@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pako | Početna</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="zaglavlje" id="zaglavlje"></header>
+
+  <main>
+    <div id="poruka" class="poruka sakriveno"></div>
+
+    <section class="uvod">
+      <div>
+        <h1>Knjige koje ostaju sa vama</h1>
+        <p>Domaći pisci, svetski klasici, fantastika i popularna nauka na jednom mestu. Dostava je besplatna za porudžbine od 3000 din.</p>
+        <form id="forma-pretraga" class="pretraga-uvod">
+          <input type="search" id="pretraga" placeholder="Naslov ili autor">
+          <button type="submit" class="dugme">Pretraži</button>
+        </form>
+      </div>
+      <div class="uvod-korice" id="uvod-korice"></div>
+    </section>
+
+    <section class="sekcija">
+      <h2>Žanrovi</h2>
+      <div class="zanrovi-mreza" id="zanrovi"></div>
+    </section>
+
+    <section class="sekcija">
+      <h2>Najbolje ocenjene</h2>
+      <div class="knjige-mreza" id="najbolje"></div>
+    </section>
+
+    <section class="sekcija">
+      <h2>Novo u ponudi</h2>
+      <div class="knjige-mreza" id="novo"></div>
+    </section>
+  </main>
+
+  <footer class="podnozje">Pako knjižara · IT354 Veb sistemi 1 · 2026</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/sesija.js"></script>
+  <script src="js/zajednicko.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
