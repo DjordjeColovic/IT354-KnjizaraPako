@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pako | Prijava</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="zaglavlje" id="zaglavlje"></header>
+
+  <main>
+    <div class="obrazac">
+      <div id="poruka" class="poruka sakriveno"></div>
+      <div class="kartica">
+        <h1>Prijava</h1>
+        <form id="forma-prijava" novalidate>
+          <div class="polje">
+            <label for="email">Email adresa</label>
+            <input type="email" id="email" autocomplete="email">
+          </div>
+          <div class="polje">
+            <label for="lozinka">Lozinka</label>
+            <input type="password" id="lozinka" autocomplete="current-password">
+          </div>
+          <div class="obrazac-dno">
+            <button type="submit" class="dugme">Prijavi se</button>
+            <span>Nemate nalog? <a href="registracija.html">Registrujte se</a></span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="podnozje">Pako knjižara · IT354 Veb sistemi 1 · 2026</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/sesija.js"></script>
+  <script src="js/zajednicko.js"></script>
+  <script src="js/prijava.js"></script>
+</body>
+</html>
