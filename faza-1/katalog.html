@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pako | Katalog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="zaglavlje" id="zaglavlje"></header>
+
+  <main>
+    <div id="poruka" class="poruka sakriveno"></div>
+    <h1>Katalog</h1>
+
+    <div class="katalog">
+      <aside class="kartica filteri">
+        <label for="pretraga">Pretraga</label>
+        <input type="search" id="pretraga" placeholder="Naslov ili autor">
+
+        <label for="filter-zanr">Žanr</label>
+        <select id="filter-zanr">
+          <option value="">Svi žanrovi</option>
+        </select>
+
+        <label for="filter-povez">Povez</label>
+        <select id="filter-povez">
+          <option value="">Svi</option>
+          <option value="mek">Mek</option>
+          <option value="tvrd">Tvrd</option>
+        </select>
+
+        <label for="filter-cena">Cena</label>
+        <select id="filter-cena">
+          <option value="">Sve cene</option>
+          <option value="do-1000">Do 1000 din</option>
+          <option value="1000-1500">Od 1000 do 1500 din</option>
+          <option value="preko-1500">Preko 1500 din</option>
+        </select>
+
+        <label for="samo-na-stanju" class="izbor-stanja">
+          <input type="checkbox" id="samo-na-stanju">
+          Samo knjige na stanju
+        </label>
+
+        <button type="button" class="dugme dugme-svetlo dugme-malo" id="ponisti">Poništi filtere</button>
+      </aside>
+
+      <section>
+        <div class="rezultati-info">
+          <span id="broj-rezultata"></span>
+          <select id="sortiranje">
+            <option value="naslov">Naslov A–Ž</option>
+            <option value="cena-rastuce">Cena rastuće</option>
+            <option value="cena-opadajuce">Cena opadajuće</option>
+            <option value="godina">Najnovije izdanje</option>
+          </select>
+        </div>
+        <div class="knjige-mreza" id="lista-knjiga"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="podnozje">Pako knjižara · IT354 Veb sistemi 1 · 2026</footer>
+
+  <script src="js/api.js"></script>
+  <script src="js/sesija.js"></script>
+  <script src="js/zajednicko.js"></script>
+  <script src="js/katalog.js"></script>
+</body>
+</html>

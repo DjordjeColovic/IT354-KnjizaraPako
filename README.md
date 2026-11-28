@@ -30,6 +30,7 @@ Urađeno:
 - prijava korisnika
 - registracija novog naloga
 - početna stranica
+- katalog sa pretragom, filterima i sortiranjem
 
 ## Servis za podatke
 
