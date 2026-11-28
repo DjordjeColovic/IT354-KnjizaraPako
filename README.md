@@ -28,6 +28,7 @@ Urađeno:
 - stilovi za sve stranice
 - zajedničke funkcije za rad sa servisom, sesijom i korpom
 - prijava korisnika
+- registracija novog naloga
 
 ## Servis za podatke
 
